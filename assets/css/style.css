@@ -1,11 +1,41 @@
-body{
-  background-image: url('assets/images/street_fighter_team.jpg');
+body {
+  background-image: url('./images/street_fighter_team.jpg');
+  background-color: #cccccc;
+}
 
-  .SFLogo { 
-          width:  250px;
-          height: 250px;
-
-
-
-
+;
+.sfLogo {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
 };
+
+
+h1 {
+  position: relative;
+  color: #4d4dff;
+  font-size: 55px;
+  text-align: center;
+  top: 15px;
+  font-family: 'Faster One', cursive;
+}
+
+.game {
+  position: relative;
+  width: 500px;
+  height: 450px;
+  border: solid 4px black;
+  top: 10px;
+  margin: auto;
+}
+
+body {
+  font-family: 'Righteous', cursive;
+  color: black;
+  font-size: 18px;
+  text-align: center;
+}
+
+#underscore {
+  letter-spacing: 5px;
+}
